@@ -6,7 +6,8 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Привіт з репозиторію Git!");
+            Console.WriteLine("Лабораторна робота №1: Робота з гілками");
+            Console.WriteLine("Основний код програми успішно додано у гілку feature!");
             Console.ReadKey();
         }
     }
