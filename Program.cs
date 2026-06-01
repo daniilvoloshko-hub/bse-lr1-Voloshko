@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace ConsoleApp2
 {
@@ -6,8 +6,11 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Лабораторна робота №1: Робота з гілками");
-            Console.WriteLine("Основний код програми успішно додано у гілку feature!");
+            int[] testNumbers = { 10, 20, 30, 40 };
+            double average = AiAssistant.CalculateAverage(testNumbers);
+
+            Console.WriteLine("AI-згенерована funkcija praciuje!");
+            Console.WriteLine($"Serednie aryfmetychne masyvu: {average}");
             Console.ReadKey();
         }
     }
